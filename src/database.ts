@@ -3,12 +3,17 @@ import { createPool, Pool } from 'mysql2/promise';
 export async function connect(){
 
     const connection = await createPool({
-        host: 'but6yhxncgcrzofcdddv-mysql.services.clever-cloud.com',
-        user: 'uzz6achzhg5tk3lx',
-        password: 'cOhJhYxDOYI4VxL3wpPz',
-        database: 'but6yhxncgcrzofcdddv',
+        host: 'us-cdbr-east-02.cleardb.com',
+        user: 'bb93c626648c28',
+        password: '99618098',
+        database: 'heroku_fb41df5eff76aba',
         connectionLimit: 10
     });
+
+    // --Usuario: bb93c626648c28
+    // --Contraseña: 99618098 @
+    // ---Host: us-cdbr-east-02.cleardb.com/
+    // --Name: heroku_fb41df5eff76aba
 
     return connection;
 

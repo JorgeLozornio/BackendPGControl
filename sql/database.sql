@@ -1,8 +1,8 @@
-drop database IF EXISTS but6yhxncgcrzofcdddv; 
+drop database IF EXISTS heroku_fb41df5eff76aba; 
 
-create database but6yhxncgcrzofcdddv;
+create database heroku_fb41df5eff76aba;
 
-use but6yhxncgcrzofcdddv;
+use heroku_fb41df5eff76aba;
 
 create table usuarios(
     idusuario int not null AUTO_INCREMENT,
@@ -99,3 +99,10 @@ INSERT INTO cortecaja(idusuario, monto, fecha, hora, descripcion) VALUES
 
 --Piernas, muslos, alas, patas, pechuga, hígados, molleja HOla
 --mysql -h localhost -u root -p
+
+--Herokumysql://bb93c626648c28:99618098@us-cdbr-east-02.cleardb.com/heroku_fb41df5eff76aba?reconnect=true
+--Usuario: bb93c626648c28
+--Contraseña: 99618098 @
+---Host: us-cdbr-east-02.cleardb.com/
+--Name: heroku_fb41df5eff76aba
+--?reconnect=true
